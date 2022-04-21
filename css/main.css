@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+#botonera {
+  background-color: #FCEFDC;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  #botonera img {
+    width: 150px; }
+  #botonera a {
+    font-size: 2em;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    text-decoration: none; }
+    #botonera a:hover {
+      color: #EF9D2D; }
+
+@media screen and (max-width: 991px) {
+  #botonera ul a {
+    font-size: 1em; } }
+
+#dashboard {
+  background-color: white;
+  overflow-x: hidden; }
+
+section h1 {
+  font-size: 3em;
+  font-family: "Nunito", sans-serif;
+  color: black;
+  padding: auto;
+  text-align: center; }
+
+section p {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  text-align: center; }
+
+h3 {
+  font-size: 3em;
+  font-family: "Nunito", sans-serif;
+  color: #076B7B;
+  padding: auto;
+  text-align: center; }
+
+.btnStyle, .btn2, .btn3, .btn4 {
+  width: 100%;
+  color: white;
+  border: none;
+  background-color: black;
+  border-radius: 40px; }
+  .btnStyle:hover, .btn2:hover, .btn3:hover, .btn4:hover {
+    color: #EF9D2D;
+    cursor: pointer; }
+
+.btn2 {
+  background-color: #ea705e; }
+  .btn2:hover {
+    color: #076B7B; }
+
+.btn3 {
+  background-color: #076B7B; }
+  .btn3:hover {
+    color: #ea705e; }
+
+.btn4 {
+  background-color: #EF9D2D; }
+  .btn4:hover {
+    color: black; }
+
+iframe {
+  border: solid;
+  border-color: #ea705e;
+  margin-bottom: 10px; }
+
+.tamañoCuadro {
+  width: 80%; }
+
+@media screen and (max-width: 767px) {
+  section h1 {
+    font-size: 2em; }
+  section p {
+    font-size: 1em; }
+  h3 {
+    font-size: 2em; }
+  .tamañoCuadro {
+    width: 80%; } }
+
+footer {
+  background-color: black; }
+  footer div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer div h3 {
+      font-size: 2em;
+      font-family: "Nunito", cursive;
+      color: white;
+      text-align: center; }
+    footer div div {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none; }
+    footer div img {
+      width: 70px; }

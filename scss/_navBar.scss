@@ -1,0 +1,25 @@
+#botonera{
+background-color: map-get($map:$paleta,$key:'seis');
+	
+	top: 0;
+	@include flex(row, space-between, center);
+    img{
+    	width:150px;
+    }
+
+    		a{
+    		@include texto($textMd, $fontMain, black);
+    			text-decoration: none;
+    			&:hover{
+    				color: map-get($map:$paleta,$key:'cuatro');
+
+    			}
+    }
+ }
+ @media screen and (max-width: 991px){
+ 	#botonera{
+ 		ul a{
+ 			font-size: $textSm;
+ 		}
+ 	}
+ }
